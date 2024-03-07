@@ -14,7 +14,7 @@ public class SecondLayer extends AppCompatActivity {
         setContentView(R.layout.activity_second_layer);
     }
 
-    //----переход к главному меню----//
+    //----переход к главному меню исправить----//
     public void openMain(View view){
         finish();
         overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
